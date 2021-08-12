@@ -1,0 +1,235 @@
+@media (max-width: 768px) {
+    
+    .intro img {
+        max-width: 60%;
+        width: 100%;
+    }
+
+    .intro button {
+        font-size: 1rem;
+        margin-top: 3rem;
+        padding: 1rem 1.5rem;
+    }
+
+
+    .personal-area .img-area {
+        padding: 1rem 0;
+    }
+    .personal-area .img-area .text {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+    .personal-area .text-box a {
+        font-size: 1.25rem;
+    }
+    .personal-area .btn-conts a {
+        height: 64px;
+        font-size: 1.25rem;
+    }
+    .personal-area .btn-conts .kakao::before {
+        max-width: 64px;
+        height: 64px;
+    }
+    .result .conts a {
+        font-size: 1.25rem;
+    }
+
+    .result .conts button {
+        width: 50%;
+        font-size: 1.25rem;
+        padding: .75rem 0;
+    }
+
+}
+
+@media (max-width: 640px) {
+
+    .question h1 {
+        font-size: 3.375rem;
+    }
+    .question span {
+        font-size: 1.25rem;
+    }
+    .question p {
+        font-size: 1.5rem;
+        margin: 1.5rem 0 3rem;
+    }
+    .question button {
+        width: 90%;
+        height: 5rem;
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+    .question #page {
+        font-size: 1rem;
+        margin-top: 3rem;
+    }
+    .question img {
+        max-width: 50%;
+    }
+
+
+
+    .result .title h1 {
+        font-size: 2.5rem;
+    }
+    .result .title p {
+        font-size: 1.875rem;
+    }
+    .result #result-image img {
+        max-width: 60%;
+    }
+    .item h2 {
+        font-size: 2rem;
+        margin-bottom: 1.875rem;
+    } 
+    .result .keywords p{
+        font-size: 1.25rem;
+        margin: 1rem auto 1.875rem;
+        padding: .75rem 0;
+    }
+    .result .item {
+        margin-bottom: 3rem;
+    }
+    .item span {
+        font-size: 1rem;
+    }
+    .text-conts span {
+        padding: 2rem;
+    }
+
+    .result .conts span {
+        font-size: .875rem;
+    }
+
+
+    .loading .circle-wrap {
+        padding: .75rem 0;
+    }
+    .loading .circle {
+        width: 1rem;
+        height: 1rem;
+    }
+    .loading .circle:nth-child(2) {
+        margin: 0 1.5rem;
+    }
+    .loading p {
+        font-size: 1.5rem;
+        margin: 4rem 0 3rem;
+    }
+
+    .personal-area .btn-conts a {
+        max-width: 120px;
+        font-size: 1rem;
+        margin-right: 8px;
+    }
+    .personal-area .btn-conts .kakao::before {
+        left: -10px;
+        max-width: 32px;
+        height: 32px;
+    }
+    .mbti-conts {
+        margin: 3.5rem 0 2rem;
+    }
+    .mbti-conts .mbti p {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .intro button {
+        padding: .625rem 1rem;
+    }
+
+
+
+    .question span {
+        font-size: 1rem;
+    }
+    .question p {
+        font-size: 1.25rem;
+    }
+
+
+
+    .result .title h1 {
+        font-size: 2.25rem;
+    }
+    .result .title p {
+        line-height: normal;
+        font-size: 1.5rem;
+    }
+
+    .item h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.25rem;
+    }
+    .result .keywords p {
+        margin: 1rem auto 1.25rem;
+    }
+    .text-conts span {
+        font-size: .875rem;
+        padding: 1.5rem 1rem;
+    }
+    .result .conts a {
+        font-size: 1rem;
+    }
+    .result .conts button {
+        font-size: 1rem;
+    }
+    .result .conts button:first-child {
+        margin-right: .5rem;
+    }
+    .personal-area .img-area {
+        padding: .5rem 0;
+    }
+    .personal-area .img-area .text {
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    .personal-area .text-box a {
+        font-size: 1rem;
+    }
+    .mbti-conts span {
+        font-size: 1rem;
+    }
+    .mbti-conts .mbti p {
+        font-size: 1.875rem;
+    }
+}
+
+
+@media(max-width: 280px) {
+    .question p {
+        font-size: 1rem;
+    }
+    .question button {
+        height: 4rem;
+        font-size: .75rem;
+        letter-spacing: -1px;
+    }
+
+    .result .title h1 {
+        font-size: 2rem;
+    }
+
+    .result #result-image {
+        margin: 1.5rem 0;
+    }
+    .result .keywords p {
+        font-size: 1rem;
+    }
+    .item h2 {
+        font-size: 1.25rem;
+    }
+    .result .conts a {
+        font-size: .875rem;
+    }
+    .result .conts button {
+        font-size: .875rem;
+    }
+    .result .conts span {
+        font-size: .75rem;
+    }
+}

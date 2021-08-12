@@ -1,0 +1,350 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+html, body {
+    font-family: "NanumSquare";
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: -1px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+button {
+    outline: none !important;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+
+.content {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(160deg, #ff9334, #c46783, #8a00ff, #c46783, #ff9334);
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.intro button {
+    font-size: 1.875rem;
+    color: #fff;
+    padding: 1.25rem 1.75rem;
+    border: 1px solid #fff;
+    border-radius: 1.875rem;
+    background: transparent;
+    margin-top: 3.75rem;
+}
+
+
+.question {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.question h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+.question span {
+    font-size: 1.5rem;   
+}
+.question p {
+    font-size: 1.875rem;
+    text-align: center;
+    margin: 3.75rem 0 5.625rem;
+}
+
+.question .btn-wrap {
+    width: 100%;
+}
+.question button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 31.75rem;
+    width: 100%;
+    height: 5.625rem;
+    font-size: 1.25rem;
+    color: #fff;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    border-radius: 1.875rem;
+    background: transparent;
+}
+.question button:first-child {
+    margin-bottom: 1.125rem;
+}
+.question #page {
+    font-size: 1.5rem;
+    margin: 5.625rem 0 1.5rem;
+    opacity: .7;
+}
+
+.result {
+    display: none;
+    padding: 5rem 15px 5rem;
+    text-align: center;
+}
+
+.result .title h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.result .title span {
+    font-weight: bold;
+}
+.result .title p {
+    font-size: 2.25rem;
+    line-height: 3rem;
+    margin-bottom: 0;
+}
+.result .title p span {
+    font-weight: bold;
+}
+
+.result #result-image {
+    margin: 2.5rem 0;
+}
+.result .keywords p {
+    max-width: 25rem;
+    width: 100%;
+    font-size: 1.875rem;
+    font-weight: bold;
+    padding: 1.5rem 0;
+    margin: 1.5rem auto 2.5rem;
+    border: 1px solid #fff;
+    border-radius: 1.5rem;
+}
+
+.result .item {
+    margin-bottom: 5.25rem;
+}
+
+
+.item h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2.25rem;
+}
+
+.item span {
+    font-size: 1.5rem;
+}
+
+.result .conts span {
+    display: block;
+    font-size: 1.25rem;
+    color: #8e42c3;
+}
+.result .btn-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result .conts a {
+    display: block;
+    max-width: 35rem;
+    width: 100%;
+    font-size: 1.875rem;
+    color: #fff;
+    margin: 1.5rem auto 1rem;
+    padding: .5rem 0;
+    border: 1px solid #fff;
+    border-radius: 1.5rem;
+    background: rgba(255, 255, 255, 0.2);
+}
+.result .conts button {
+    max-width: 15.5rem;
+    width: 100%;
+    font-size: 1.875rem;
+    color: #fff;
+    padding: 1rem 0;
+    border: 0;
+    border-radius: 1.5rem;
+    background: rgba(255, 255, 255, 0.2);
+}
+.result .conts button:first-child {
+    margin-right: 1rem;
+}
+
+.text-conts span {
+    display: block;
+    max-width: 40.625rem;
+    margin: 0 auto;
+    padding: 3.75rem 2rem;
+    border: 1px solid #fff;
+    border-radius: 1.5rem;
+}
+
+.loading {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.loading .circle-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 22.5rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 1.5rem;
+}
+.loading p {
+    font-size: 2rem;
+    margin: 8rem 0 6rem;
+}
+.loading p span {
+    font-weight: 900;
+}
+.loading .circle {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    background: #fff;
+    animation: loading 1s infinite alternate;
+    transition: .5s;
+}
+.loading .circle:first-child {
+    animation-delay: .4s;
+}
+.loading .circle:nth-child(2) {
+    margin: 0 3rem;
+    animation-delay: .6s;
+}
+.loading .circle:last-child {
+    animation-delay: .8s;
+}
+
+@keyframes loading {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+
+/* 0801 추가영역 */
+.personal-area .img-area {
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+    border-radius: 1.5rem;
+    background: url(../images/personal_background.png)no-repeat;
+    background-size: 100%;
+}
+
+.personal-area .img-area .text {
+    font-size: 1.875rem;
+    color: #fff;
+    line-height: 2.25rem;
+}
+.personal-area .img-area .text span {
+    font-weight: 600;
+}
+
+.personal-area .text-box {
+    display: flex;
+    justify-content: center;
+    max-width: 650px;
+    width: 100%;
+    text-align: justify;
+    margin: 1.25rem auto;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    border-radius: 1.5rem;
+}
+.personal-area .text-box a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 1.875rem;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.personal-area .btn-conts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.personal-area .btn-conts a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 250px;
+    width: 100%;
+    height: 80px;
+    line-height: 1.875rem;
+    font-size: 1.875rem;
+    color: #fff;
+    margin-right: 1rem;
+    border-radius: 1.5rem;
+    background: rgba(255, 255, 255, 0.2);
+}
+.personal-area .btn-conts a:last-child {
+    margin-right: 0;
+}
+.personal-area .btn-conts .kakao::before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    display: block;
+    max-width: 80px;
+    width: 100%;
+    height: 80px;
+    background: url(../images/ico_kakao.png)no-repeat;
+    background-size: 100%;
+}
+.mbti-conts {
+    max-width: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 7.5rem auto 3.75rem;
+}
+.mbti-conts span {
+    font-size: 1.875rem;
+}
+.mbti-conts .mbti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.mbti-conts .mbti .line {
+    max-width: 50%;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+}
+.mbti-conts .mbti p {
+    font-weight: 800;
+    font-size: 4.5rem;
+    margin: 0 1rem;
+}

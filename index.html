@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퍼스널 컬러 MBTI</title>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- RESPONSIVE -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+<body>
+    
+    <div class="content">
+
+        <div class="container">
+            
+            <div class="row">
+                
+                <div class="col-12 intro">
+
+                    <img src="assets/images/intro.png" alt="인트로">
+
+                    <button type="button">테스트 시작하기</button>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                
+                <div class="col-12 question">
+
+                    <h1 id="number">문제번호</h1>
+                    <span>[성격편]</span>
+
+                    <p id="question">문제</p>
+
+                    <div class="btn-wrap">
+                        <button type="button" id="A">버튼</button>
+
+                        <button type="button" id="B">버튼</button>
+                    </div>
+
+                    <input type="hidden" id="type" value="EI">
+
+                    <span id="page">페이지번호</span>
+
+                    <img src="assets/images/logo.png" alt="위아트_로고">
+
+                </div>
+
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-12 loading">
+
+                    <img src="assets/images/logo.png" alt="위아트_로고" />
+
+                    <p>당신의 <span>컬러</span>를 찾는중...</p>
+
+                    <div class="circle-wrap">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-12 result">
+
+                    <div class="title">
+
+                        <h1>당신의 <span>컬러</span>는</h1>
+
+                        <p id="modifier">수식어</p>
+
+                    </div>
+
+                    <div id="result-image">
+
+                    </div>
+
+                    <div class="keywords item">
+
+                        <h2>나의 키워드는?</h2>
+
+                        <p id="keywords">키워드</p>
+
+                        <span id="keywords-comment">코멘트</span>
+
+                    </div>
+
+                    <!-- 0801 추가 -->
+                    <div class="personal-area">
+                        <div class="img-area">
+                            <div class="text">
+                                <p>컬러 테스트를 통해<br />오직 <span>나만의 그림</span>을<br />간직하세요.</p>
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <a href="http://www.wart.or.kr/shop/shopdetail.html?branduid=1725831&search=%25C6%25DB%25BD%25BA%25B3%25CE&sort=order&xcode=003&mcode=002&scode=017&GfDT=aWV9">세상에단하나뿐인나만의<br />퍼스널컬러선택하기></a>
+                        </div>
+
+                        <div class="btn-conts">
+                            <a href="http://pf.kakao.com/_EexdYxd/chat" class="kakao">나의 컬러<br />상담하기</a>
+                            <a href="#" class="link-copy">공유하기</a>
+                            <a href="#" class="retry">다시하기</a>
+                        </div>
+                    </div>
+
+                    <div class="mbti-conts">
+                        <span>나의 MBTI</span>
+                        <div class="mbti">
+                            <div class="line"></div>
+                            <p id="mbti"></p>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                    <!-- 0801 추가 -->
+
+                    <div class="character item text-conts">
+
+                        <h2>나의 성격은?</h2>
+
+                        <span id="character">성격문구</span>
+
+                    </div>
+
+
+                    <div class="warning item text-conts">
+
+                        <h2>조심해 주세요!</h2>
+
+                        <span id="warning">조심문구</span>
+
+                    </div>
+
+                    <div class="well item text-conts">
+
+                        <h2>이런 사람이랑 잘 맞아요!</h2>
+
+                        <span id="well">잘 맞아요 문구</span>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <input type="hidden" id="EI" value="0">
+            <input type="hidden" id="SN" value="0">
+            <input type="hidden" id="TF" value="0">
+            <input type="hidden" id="JP" value="0">
+
+        </div>
+
+    </div>
+
+
+    <!-- JQUERY -->
+    <script src="assets/js/jquery-1.12.3.min.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
